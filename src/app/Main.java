@@ -11,7 +11,7 @@ public class Main {
         Logger logger2 = Logger.getInstance();
 
         System.out.println("--------------------------------------");
-        System.out.println("checking if it is same instance");
+        System.out.println(" - checking if it is same instance");
         // Перевірка, чи це той самий об'єкт
         if (logger1 == logger2) {
             System.out.println("These are the same instance.");
